@@ -17,7 +17,8 @@ class Controller {
 		if (!isset($_GET['book']))
 			#se ejecuta cada vez que ingresa al index.php
 		{
-			// no special book is requested, we'll show a list of all available books
+			// no special book is requested, we'll show a 
+			//list of all available books
 			$books = $this->model->getBookList();
 			include 'view/booklist.php';
 		}
