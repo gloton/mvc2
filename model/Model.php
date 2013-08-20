@@ -16,8 +16,8 @@ class Model {
 		// here goes some hardcoded values to simulate the database
 		return array(
 						"Jungle Book" => new Book("Jungle Book", "R. Kipling", "A classic book."),
-						"Moonwalker" => new Book("Moonwalker2", "J. Walker", ""),
-						"PHP for Dummies" => new Book("PHP or Dummies", "Some Smart Guy", "")
+						"Moonwalker" => new Book("Moonwalker", "J. Walker", ""),
+						"PHP for Dummies" => new Book("PHP for Dummies", "Some Smart Guy", "")
 					);
 	}
 	
